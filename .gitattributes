@@ -1,2 +1,6 @@
+* text=auto
+* eol=lf
+*.bat eol=crlf
 *.psd filter=lfs diff=lfs merge=lfs -text
+*.md  filter=lfs
 *.md filter=lfs diff=lfs merge=lfs -text
